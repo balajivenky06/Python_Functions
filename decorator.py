@@ -2,7 +2,7 @@
 
 from functools import wraps
 from time import time
-import statements.lazy_return_random_attacks #import function from statements.py file
+from statements import lazy_return_random_attacks #import function from statements.py file
 
 def timing(f):
     @wraps(f)
@@ -18,4 +18,4 @@ def timing(f):
 def some_attachs():
     attack = lazy_return_random_attacks()
     for _ in range(5): 
-        print(next(attack)) #notice this function is passed into decorator and calculates total time taken
+        print(next(attack)) #notice this function is passed into decorator and calculates time taken by function passed
