@@ -9,7 +9,7 @@ def lazy_return_random_attacks():
                "knee_bar": "lower_body"}
     
     while True:
-        random_attack = random.choices(list(attacks.key))
+        random_attack = random.choices(list(attacks.keys()))
         yield random_attack
 
 attack = lazy_return_random_attacks()
