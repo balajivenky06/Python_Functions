@@ -6,7 +6,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C mylib
 
 test:
 	python -m pytest -vv test_mathcode.py
