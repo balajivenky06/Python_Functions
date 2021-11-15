@@ -17,7 +17,7 @@ jobs:
     - name: Install dependencies
       run: make install
       
-    - name: Run Tests
+    - name: Run tests
       run: make test
       
 
