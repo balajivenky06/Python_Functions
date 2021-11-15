@@ -12,9 +12,9 @@ def lazy_return_random_attacks():
         random_attack = random.choices(list(attacks.keys()))
         yield random_attack
 
-attack = lazy_return_random_attacks()
-print(type(attack))
+#attack = lazy_return_random_attacks()
+#print(type(attack))
 
-for _ in range(3):
-    print(next(attack))
+#for _ in range(3):
+#    print(next(attack))
 

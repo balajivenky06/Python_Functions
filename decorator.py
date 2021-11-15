@@ -2,7 +2,7 @@
 
 from functools import wraps
 from time import time
-from statements import lazy_return_random_attacks #import function from statements.py file
+from mylib.statements import lazy_return_random_attacks #import function from statements.py file
 
 def timing(f):
     @wraps(f)
