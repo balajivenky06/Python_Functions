@@ -9,6 +9,6 @@ lint:
 	pylint --disable=R,C hello.py
 
 test:
-	python -m pytest -vv --cov=mylib test_mathcode.py
+	python -m pytest -vv test_mathcode.py
 
 all: install format lint test
