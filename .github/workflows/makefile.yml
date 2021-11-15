@@ -20,7 +20,7 @@ jobs:
     - name: Run lint
       run: make lint
       
-    - name: Run tests
-      run: make test
+    - name: Run Format
+      run: make format
       
 
